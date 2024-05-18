@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+
+body {
+    font-family: Poppins, serif;
+    background: linear-gradient(90deg, #f5bd89 0%, #ffecd6 99%);
+}
+
+
+.nav-link {
+    color: rgb(246, 125, 216);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(244, 153, 233);
+}
+
+.navbar-brand {
+    color: rgb(245, 150, 247);
+}
+
+.navbar-toggler {
+    background-color: rgb(245, 152, 236);
+}
+
+.sidebar {
+    color: rgb(188, 33, 154);
+}
+
+.card {
+    background:rgb(255, 255, 255);
+   color: rgb(10, 11, 11);
+}
+
+.slide-text {
+    color: fuchsia;
+    margin: auto auto;
+}
+
+.slide-text,
+.footer-text{
+    color: rgb(224, 104, 224);
+    margin: auto auto;
+}
+
+.footer-text{
+    color: #000;
+}
+footer{
+    
+}
+
+.media-links {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+@media (max-width: 755px) {
+.carousel-indicators {
+    display: none;
+ }
+}
